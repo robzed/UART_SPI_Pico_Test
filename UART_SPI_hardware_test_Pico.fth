@@ -1,4 +1,7 @@
 \ UART and SPI test
+\ Written by Rob Probin Jan 2023
+\ Based on exampled from ZeptoForth
+\ MIT License - see file LICENSE
 
 \ some support words (from Tachyon)
 : .HEX ( n cnt -- ) HEX  <# 0 DO # LOOP #> TYPE DECIMAL ;
